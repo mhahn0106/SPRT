@@ -9,8 +9,8 @@ SPRT는 두 가지 단순 가설 $H_0: \theta = \theta_0$와 $H_1: \theta = \the
 결정 규칙은 $L_m \ge A$이면 $H_1$ 채택, $L_m \le B$이면 $H_0$ 채택, 그 외에는 검정 계속입니다.
 
 우리가 정의한 오류 확률은 다음과 같습니다:
-*   **제1종 오류($\alpha$):** $H_0$가 참일 때 $H_1$을 채택할 확률 ($P(\text{Reject } H_0 | H_0 \text{ is true})$)
-*   **제2종 오류($\beta$):** $H_1$이 참일 때 $H_0$를 채택할 확률 ($P(\text{Fail to reject } H_0 | H_1 \text{ is true})$)
+*   **제1종 오류($\alpha$):** $H_0$가 참일 때 $H_1$을 채택할 확률 ($P( \text{Reject } H_0 | H_0 \text{ is true})$)
+*   **제2종 오류($\beta$):** $H_1$이 참일 때 $H_0$를 채택할 확률 ($P( \text{Fail to reject } H_0 | H_1 \text{ is true})$)
 
 Wald의 유도는 검정이 종료될 때 $L_m$이 경계 A 또는 B를 **정확히** 맞춘다고 가정하는 데서 시작합니다. 물론 실제로는 경계를 넘어설 수 있지만, 근사 유도에서는 이 가정을 사용합니다.
 
